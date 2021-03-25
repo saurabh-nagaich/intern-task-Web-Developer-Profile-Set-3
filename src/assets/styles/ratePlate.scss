@@ -1,0 +1,33 @@
+.index_title,.rate_row{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color_text_dark);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1px 10px;
+    margin: 15px 5px;
+}
+
+.row_image,.img_set {
+    width: 15px;
+    height: 15px;
+}
+.row_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.rate_row{
+    color: #fff;
+    background:var(--2E3241);
+    height:8vw ;
+    max-height: 70px;
+    border-radius: 10px;
+}
+.colors{
+    color: var(--colour_blue);
+}

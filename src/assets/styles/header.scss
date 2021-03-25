@@ -1,0 +1,199 @@
+.Title_heder{
+    // width:100vw ;
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 4px 12px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    align-items: center;
+}
+
+.logo_img,.img_logo{
+    width: 65vw;
+}
+.logo_footer{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #6B6C6E;
+    transform: translateY(-20px);
+    span{
+        color: #36A4A2;
+    }
+}
+
+.drop_down_btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select , button{
+    background: #2E3241;
+    width: 75px;
+    margin: 1px 5px;
+    padding: 2px 15px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #fff;
+
+    option{
+        background:#fff;
+        color: #2E3241;
+        font-size: 1rem;
+    }
+}
+button{
+    width: 80px;
+    padding: 2px 10px;
+    height: 35px;
+}
+
+.connect_with_us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+
+}
+.dis{
+    margin: 1px 5px;
+}
+.count_down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #D6D6D6;
+    border-radius: 50%;
+    border-right: 3.5px solid #36A4A2;
+    color: #36A4A2;
+    font-size: 1.2rem;
+}
+
+.tel_icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #D6D6D6;
+    background: #36A4A2;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 40vw;
+    max-width: 250px;
+    height: 8vw;
+    max-height: 60px;
+    border-radius: 10px;
+}
+.plane_icon{
+    width: 3.5vw;
+    
+}
+// 
+// 
+/////////////////@at-root
+
+.price_section{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.rate{
+    width: 15vw;
+    color: #36A4A2;
+    .time{
+        color:#6B6C6E ;
+        font-size: 1rem;
+    }
+}
+.total_price{
+    color:#6B6C6E ;
+    .total_cost{
+        color: #fff;
+        font-size: 1.8rem;
+        margin: 8px auto;
+    }
+    .price_footer{
+        font-size: 1rem;
+        padding: 1px 2px;
+    }
+}
+
+
+
+
+@media screen and (min-width:768px){
+    .Title_heder{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        align-items: flex-start;
+    }
+    
+    .logo_img,.img_logo{
+        width: 25vw;
+        max-width: 300px;
+    }
+    .logo_footer{
+        font-size: 1rem;
+        transform: translateY(-15px);
+    }
+    
+    select , button{
+        width: 60px;
+        padding: 2px 9px;
+        height: 30px;
+        font-size: .6rem;
+    }
+    button{
+        width: 70px;
+        padding: 2px 10px;
+        height: 31px;
+    }
+    
+    .connect_with_us{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    
+    }
+    .dis{
+        margin: 1px 3px;
+    }
+    .count_down{
+        width: 25px;
+        height: 25px;
+        border: 2px solid #D6D6D6;
+        border-right: 2.5px solid #36A4A2;
+        font-size: 1rem;
+    }
+    
+    .tel_icon{
+        font-size: 1rem;
+        width: 25vw;
+        max-width: 200px;
+        height: 6vw;
+        border-radius: 10px;
+    }
+    .plane_icon{
+        width: 3vw;
+    }
+    
+}
